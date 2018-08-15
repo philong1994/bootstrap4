@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Boostrap 4</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="../js/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="../js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container">
+        <h1 class="text-center">Collapse</h1>
+	    <div class="row">
+            <div class="col-sm-12">
+                <p>
+                    <a class="btn btn-primary" data-toggle="collapse" href="#contentId" aria-expanded="false"
+                       aria-controls="contentId">
+                        Show1
+                    </a>
+                    <a class="btn btn-primary" data-toggle="collapse" href="#contentId1" aria-expanded="false"
+                       aria-controls="contentId1">
+                        Show2
+                    </a>
+                </p>
+                <div class="collapse" id="contentId">
+                    1.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos eos et nemo neque odit tempora! A commodi consectetur, debitis deserunt et ex explicabo illum nihil placeat qui rerum tempora, unde.
+                </div>
+                <div class="collapse" id="contentId1">
+                    2.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos eos et nemo neque odit tempora! A commodi consectetur, debitis deserunt et ex explicabo illum nihil placeat qui rerum tempora, unde.
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-sm-12">
+                <a class="btn btn-primary btn-block" data-toggle="collapse" href="#contentId2" aria-expanded="false"
+                   aria-controls="contentId2">
+                    Show3
+                </a>
+                <div class="collapse card card-block" id="contentId2">
+                    3.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos eos et nemo neque odit tempora! A commodi consectetur, debitis deserunt et ex explicabo illum nihil placeat qui rerum tempora, unde.
+                </div>
+                <a class="btn btn-primary btn-block" data-toggle="collapse" href="#contentId3" aria-expanded="false"
+                   aria-controls="contentId3">
+                    Show4
+                </a>
+                <div class="collapse" id="contentId3">
+                    4.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos eos et nemo neque odit tempora! A commodi consectetur, debitis deserunt et ex explicabo illum nihil placeat qui rerum tempora, unde.
+                </div>
+            </div>
+        </div>
+	</div>
+</body>
+</html>

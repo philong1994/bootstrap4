@@ -1,0 +1,11 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.khung-menu .nav-item{
+    padding-right: 20px;
+}
+.khung-menu .nav-link{
+    font-size: 13px;
+    display: inline-block;
+}
