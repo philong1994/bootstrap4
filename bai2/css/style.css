@@ -1,0 +1,18 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.container-fluid.ndcardlayout {
+	background: #80808026;
+	padding-top: 30px;
+}
+.jumbotron.top{
+	background-color: #fff;
+}
+.ndcardlayout .card-deck{
+	margin-bottom: 20px;
+}
+.ndcardlayout .card-deck .card{
+	padding: 10px;
+}
