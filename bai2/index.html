@@ -135,5 +135,19 @@
 			</div>
 		</div>
 	</div>
+	<div class="container">
+		<div class="btn btn-info" id="back-top">Back to top</div>
+	</div>
+	<script>
+        $(document).ready(function(){
+                // scroll body to 0px on click
+                $('#back-top').click(function () {
+                    $('body,html').animate({
+                        scrollTop: 0
+                    }, 800);
+                    return false;
+                });
+        });
+	</script>
 </body>
 </html>
