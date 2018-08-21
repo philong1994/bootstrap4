@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,700&subset=vietnamese');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a.nav-link {
+    color: #A2B2C2 !important;
+}
+body{
+    font-family: 'Roboto Mono', monospace;
+}
+.menu-top{
+    width: 100%;
+    position:  fixed;
+    top: 0;
+    z-index: 100;
+}
+.menu-top .navbar-collapse{justify-content: space-between;}
+.navbar-nav{
+    margin-right: 0;
+}
+.navbar-toggler.phai{
+    float: right;
+}
+.carousel-indicators > li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+.carousel-indicators .active{
+    background-color: #0056b3;
+}
+.carousel-caption{
+    padding-bottom: 60px;
+}
+a.nut-vuong{
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 0;
+}
+a.nut-vuong:hover{
+    background-color: #fff !important;
+    color: #1b1e21 ;
+    font-weight: 800;
+}
+section.khoi1{
+    background-color: #EEEEF2;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+section.khoi1 h2 {
+    font-size: 36px;
+}
+section.khoi1 .text{
+    margin-bottom: 50px;
+}
+section.khoi1 .media{
+    background: #fff;
+    border-bottom: solid 1px #c7c9c8;
+    margin-bottom: 30px;
+}
+section.khoi1 .media-body{
+    padding-top: 20px;
+}
+section.khoi1 .media-body p{
+    font-size: 14px;
+}
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+    background-color: #686868;
+}
+/*Mobile + Tablet*/
+@media only screen and (max-width: 991px) {
+    .menu-top{
+        background-color: #323C46;
+    }
+    .menu-top .navbar{
+        display: block;
+    }
+    .menu-top button.navbar-toggler{
+        float: right;
+    }
+    .menu-top a.navbar-toggler{
+        border: none;
+    }
+    .menu-top .navbar-collapse{
+
+    }
+    .menu-top ul.navbar-nav{
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) {
+
+}
