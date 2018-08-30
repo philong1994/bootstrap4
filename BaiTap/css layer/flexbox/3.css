@@ -1,0 +1,71 @@
+*{margin:0;padding:0;
+}
+a.k1 {
+	display: block;
+	width:563px;
+	height:345px;
+	background-image: url(2.jpg);
+	background-position: center;
+	color:white;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	transition: 0.3s;
+}
+.phai .bentrong	{
+}
+a.k1.k12 {
+	background-image: url(5.jpg);
+	height: 150px;
+	margin-bottom: 15px;
+}
+
+a.k1.k13 {
+	background-image: url(6.jpg);
+	height: 180px;
+}
+
+
+.noidungk1 {
+	width: 78%;
+	height: 40%;
+}
+.noidungk1 img {
+	float:left;
+	margin-right: 17px;
+	width: 92px;
+}
+
+.k12 .noidungk1 img {
+    width: 68px;
+}
+.noidungk1 b {
+	display: block;
+	padding-top: 24px;
+	font-weight: 300;
+	font-size: 31px;
+}
+.k12 .noidungk1 b {
+	display: block;
+	padding-top: 8px;
+	font-weight: 300;
+	font-size: 31px;
+}
+
+b {}
+
+a.k1:hover {
+	opacity: 0.7;
+}
+
+.to {
+	display: flex;
+	width: 1159px;
+	height: auto;
+	justify-content: space-between;
+	margin: auto;
+}

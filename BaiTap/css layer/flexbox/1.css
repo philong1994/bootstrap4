@@ -1,0 +1,20 @@
+*{margin:0;padding:0;}
+.to {
+	width:900px;
+	margin:auto;
+	background:lightblue;
+	display:flex;
+	justify-content: flex-start;
+	height: 194px;
+	align-items: baseline;
+}
+.k1 {
+	background:brown;
+	color:white;
+	padding:14px;
+	margin:2px;
+	border-radius: 4px;
+}
+.khoi2 {
+	 padding-top:30px;
+}

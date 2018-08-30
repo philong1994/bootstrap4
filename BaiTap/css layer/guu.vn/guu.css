@@ -1,0 +1,75 @@
+*{margin:0; padding:0;}
+.banner {
+	width:1120px;
+}
+a.khoivuongnho {
+	height:210px;
+	width: 280px;
+
+	overflow: hidden; 
+
+	background-color:green;
+	display: block;
+
+	position: relative;
+
+	color:white;
+	font-weight: bold;
+	font-size: 14px;
+	font-family: tahoma;
+
+	float:left;
+
+}
+
+a.khoivuongnho.tohon {
+	width:560px;
+	height:420px;
+}
+a.khoivuongnho .layer1 {
+	width:280px;
+}
+
+a.khoivuongnho.tohon .layer1 {
+	width:560px;
+}
+
+
+
+a.khoivuongnho .layer2 {
+	width:280px;
+	height:210px;
+	position: absolute;
+	z-index: 2;
+	top:0px;
+	left:0px;
+	background-image: -webkit-linear-gradient(top,rgba(255, 255, 255, 0) 50% ,rgba(0, 0, 0, 0.61) 100%);
+	transition: 0.4s;
+}
+a.khoivuongnho.tohon .layer2 {
+	width:560px;
+	height:420px;
+}
+
+a.khoivuongnho .layer2:hover {
+	opacity:0;
+}
+a.khoivuongnho .layer3 {
+	 
+	padding:8px 13px;
+
+	position:absolute;
+	bottom:-50px;
+	left:0px;
+	z-index:3;
+
+	transition: 0.4s;
+	 
+}
+
+a.khoivuongnho.tohon .layer3 {
+	font-size: 20px;
+}
+a.khoivuongnho:hover  .layer3{
+	bottom:20px;
+}
